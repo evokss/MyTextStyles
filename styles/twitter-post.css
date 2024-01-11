@@ -1,0 +1,52 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    width: 550px;
+  }
+
+  .tweet-header {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .tweet-author {
+    font-weight: bold;
+  }
+
+  .tweet-author:hover {
+    text-decoration: underline;
+  }
+
+  .tweet-date {
+    color: gray;
+  }
+
+  .tweet-content {
+    margin-bottom: 20px;
+  }
+
+  .tweet-hashtag {
+    color: rgb(29, 155, 240);
+  }
+
+  .tweet-hashtag:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .tweet-message {
+    margin-bottom: 10px;
+  }
+
+  .additional-site {
+    color: gray;
+    font-size: 16px;
+  }
+
+  .additional-site:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }

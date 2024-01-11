@@ -1,0 +1,31 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .actual-curr {
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .usd {
+    font-size: 25px;
+    color: grey;
+  }
+
+  .daily-changes {
+    font-size: 20px;
+    color: green;
+    margin-bottom: 10px;
+  }
+
+  .hours-change {
+    font-size: 20px;
+    color: grey;
+  }
+
+  .hours-change-value {
+    color: rgb(219, 48, 48);
+  }
