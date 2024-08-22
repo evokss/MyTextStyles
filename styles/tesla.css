@@ -1,6 +1,22 @@
-p {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: white;
+}
+
+.hero {
+    height: 1000px;
+    background-image: url(/images/tesla-black-car.png);
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .header {
@@ -14,6 +30,6 @@ p {
     margin-top: 0;
 }
 
-.delivery-type {
+.description--delivery-type {
     text-decoration: underline;
 }
